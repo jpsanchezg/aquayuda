@@ -222,10 +222,17 @@ header .carousel-indicators li {
 	min-height: 200px;
 }
 
-.purchase button.app-store{
+.purchase button.apple-app-store{
 	width: 152px;
 	height: 52px;
 	background: url(../img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
+	color: white;
+}
+.purchase button.android-app-store{
+	width: 172px;
+	height: 82px;
+	background: url(../img/google-play-badge.png);
+	background-size: 100% 100%;
 	color: white;
 }
 
