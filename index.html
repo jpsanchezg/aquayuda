@@ -1,378 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--========== The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags ==========-->
-<title>Chivalric</title>
-
-<!--==========Dependency============-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.css">
-<link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.css">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:500">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700italic">
-<link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,800,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic">
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700italic,700,900,900italic' rel='stylesheet' type='text/css'>
-
-<!--==========Theme Styles==========-->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/theme/green.css" rel="stylesheet">
-
-<!--========== HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries ==========-->
-<!--========== WARNING: Respond.js doesn't work if you view the page via file:// ==========-->
-<!--==========[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-<![endif]==========-->
+    <!-- Metas -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LionCoders" />
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icofont.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/slick.css" rel="stylesheet" />
+    
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- Document Title -->
+    <title>AQUAYUDA</title>
 </head>
-<body class="home">
-
-<header class="row transparent black header1" data-spy="affix" data-offset-top="0" id="header">
+<body>
+  <!-- HEADER SECTION -->  
+  <header id="home">
     <div class="container">
-        <div class="row top-header">
-            <div class="col-sm-4 search-form-col">
-                <form action="#" method="get" class="search-form">
-                    <div class="input-group">
-                        <span class="input-group-addon"><img src="images/search-icon-white.png" alt=""></span>
-                        <input type="search" class="form-control" placeholder="search">
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-4 logo-col text-center">
-                <a href="index.html"><img src="images/logo-white-green.png" alt=""></a>
-            </div>
-            <div class="col-sm-4 menu-trigger-col">
-                <button class="menu-trigger pull-right">
-                    <span class="active-page">home</span>
-                    <img src="images/menu-align-white.png" alt="" class="icon-burger">
-                    <img src="images/menu-close-white.png" alt="" class="icon-cross">
-                </button>
-            </div>
-        </div>        
-    </div>
-    <div class="row menu-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 menu-col">
-                    <div class="row">
-                        <ul class="nav column-menu black-bg">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                        </ul>
-                        <ul class="nav column-menu black-bg">
-                            <li><a href="contact.html">contact</a></li>
-                            <li><a href="#">Buy Pro Version</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 subscribe-col">
-                    <h5 class="widget-title">subscribe to our newsletter.</h5>
-                    <form action="#" method="post" class="form-inline subscribe-form">                    
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-sm"><span>send</span></button>
-                    </form>
-                    <ul class="nav social-nav dark">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <!-- Change Logo Img Here -->
+        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="interactive-menu-button">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#home">Home.<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#about-us">About Us.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#portfolio">Portfolio.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#blog">Blog.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#contact-us">Contact Us.</a>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- Lang Dropdown Link -->
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- Lang Dropdown Choice -->
+                <a class="dropdown-item" href="#">DE </a>
+                <!-- Lang Dropdown Choice -->
+                <a class="dropdown-item" href="#">ES </a>
+              </div>
+            </li>
+          </ul>
+          <form data-scroll href="#contact-us" class="contact-btn form-inline my-2 my-lg-0">
+            <!-- Contacgt Us Button -->
+            <button>Contact Us</button>
+          </form>
         </div>
+      </nav>
     </div>
-</header>
-
-<section class="row featured-post-carousel">
-    <div class="item post">
-        <img src="images/featured-posts/1.jpg" alt="" class="img-responsive main-bg">
-        <div class="post-content">
-            <div class="container">
-                <h5 class="post-meta"><i>in</i> <a href="#">Author Profile</a> | <a href="#">feb 17, 2018</a></h5>
-                <h2 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h2>
-                <a href="blog.html" class="btn btn-primary"><span>read more</span></a>
-            </div>
+    <!-- HERO SECTION -->    
+    <div class="container-fluid hero">
+      <img src="images/hero.svg" alt="">
+      <div class="container">
+        <!-- Hero Title -->
+        <h1>The Spirit of<br>Digital Agency.</h1>
+        <!-- Hero Title Info -->
+        <p>Vestibulum ac diam sit amet quam vehicula elementum<br> amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+        <div class="hero-btns">
+          <!-- Hero Btn First -->
+          <a data-scroll href="#about-us">More About us</a>
+          <!-- Hero Btn Second -->
+          <a data-scroll href="#contact-us">Get in Touch.</a>
         </div>
+      </div>
     </div>
-    <div class="item post">
-        <img src="images/featured-posts/1-1.jpg" alt="" class="img-responsive main-bg">        
-        <div class="post-content">
-            <div class="container">
-                <h5 class="post-meta"><i>in</i> <a href="#">Author Profile</a> | <a href="#">feb 17, 2018</a></h5>
-                <h2 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h2>
-                <a href="blog.html" class="btn btn-primary"><span>read more</span></a>
+  </header>
+  <!-- SERVICES SECTION -->  
+  <section id="about-us" class="services">
+    <div class="container-fluid">
+      <div class="side-img"> 
+        <img src="images/aside.svg" alt="">
+      </div>
+      <div class="side2-img"> 
+        <img src="images/aside2.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-lg-4 service-txt">
+            <h2>Anything you need,we’ve got you covered</h2>
+            <div class="hero-btns service-btn">
+              <a data-scroll href="#contact-us">Get in Touch</a>
             </div>
-        </div>
-    </div>
-    <div class="item post">
-        <img src="images/featured-posts/1-2.jpg" alt="" class="img-responsive main-bg">        
-        <div class="post-content">
-            <div class="container">
-                <h5 class="post-meta"><i>in</i> <a href="#">Author Profile</a> | <a href="#">feb 17, 2018</a></h5>
-                <h2 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h2>
-                <a href="blog.html" class="btn btn-primary"><span>read more</span></a>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="service-box">
+              <img src="images/service-icon1.svg" alt="">
+              <!-- Service Title -->
+              <h3>Web & Graphic<br>Design</h3>
+              <!-- Replace Patch to Image Under -->
+              <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
             </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="service-box">
+              <img src="images/service-icon2.svg" alt="">
+              <!-- Service Title -->
+              <h3>Web & App<br>Development</h3>
+              <!-- Service Info -->
+              <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</section>
-
-<section class="row content-wrap">
+  </section>
+  <!-- ABOUT SECTION -->
+  <section class="about">
     <div class="container">
-        <div class="row" id="post-masonry">
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-image">
-                <div class="post-wrapper row">
-                    <div class="featured-content row">
-                        <a href="blog.html"><img src="images/posts/masonry/1.jpg" alt="" class="img-responsive"></a>
-                    </div>
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
-                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-image">
-                <div class="post-wrapper row">
-                    <div class="featured-content row">
-                        <a href="blog.html"><img src="images/posts/masonry/2.jpg" alt="" class="img-responsive"></a>
-                    </div>
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
-                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Author Widget-->
-            <aside class="col-sm-4 widget-author widget widget-with-posts post">
-                <div class="widget-author-inner row">
-                    <div class="author-avatar row"><a href="#"><img src="images/author.png" alt="" class="img-circle"></a></div>
-                    <a href="#"><h2 class="author-name">Mark Sanders</h2></a>
-                    <h5 class="author-title">small title</h5>
-                    <p>The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".</p>
-                    <a href="#" class="know-more">know more</a>
-                </div>
-                <ul class="nav social-nav">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-            </aside>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-gallery">
-                <div class="post-wrapper row">
-                    <div class="featured-content row">
-                        <div class="gallery-of-post">
-                            <div class="item"><img src="images/posts/masonry/3.jpg" alt=""></div>
-                            <div class="item"><img src="images/posts/masonry/3.jpg" alt=""></div>
-                            <div class="item"><img src="images/posts/masonry/3.jpg" alt=""></div>
-                            <div class="item"><img src="images/posts/masonry/3.jpg" alt=""></div>
-                            <div class="item"><img src="images/posts/masonry/3.jpg" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
-                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-text">
-                <div class="post-wrapper row">
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
-                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-video">
-                <div class="post-wrapper row">
-                    <div class="featured-content row">
-                        <a href="blog.html">
-                            <img src="images/posts/masonry/4.jpg" alt="" class="img-responsive">
-                            <img src="images/play-btn.png" alt="" class="video-mark">
-                        </a>
-                    </div>
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
-                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Twitter Widget-->
-            <aside class="col-sm-4 widget widget-twitter widget-with-posts post">
-                <div class="widget-twitter-inner">
-                    <h5 class="widget-meta"><i class="fa fa-twitter"></i>Twitter feed <a href="http://twitter.com/chivalricblog">@chivalricblog</a></h5>
-                    <div class="row tweet-texts">
-                        <p>Check out new post on my blog <a href="http://twitter.com/#natureshot">#natureshot</a> <a href="http://bit.ly/blog">http://bit.ly/blog</a></p>
-                    </div>
-                    <div class="row timepast">1 day ago</div>
-                </div>
-            </aside>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-quote">
-                <div class="post-wrapper row">
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title">If everybody learns this simple art of loving his work, whatever it is, enjoying it without asking for any recognition, we would have more beautiful and celebrating world.</h3>
-                        <h5 class="quote-maker"><a href="#">osho</a></h5>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">quote</a>, <a href="#">life</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-white.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-link">
-                <div class="post-wrapper row">
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="https://name.com/p5so38a">https://name.com/p5so38a</a></h3>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">link</a>, <a href="#">product</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Blog Post-->
-            <article class="col-sm-4 post post-masonry post-format-video">
-                <div class="post-wrapper row">
-                    <div class="featured-content row">
-                        <a href="blog.html">
-                            <img src="images/posts/masonry/4.jpg" alt="" class="img-responsive">
-                            <img src="images/play-btn.png" alt="" class="video-mark">
-                        </a>
-                    </div>
-                    <div class="post-excerpt row">
-                        <h5 class="post-meta">
-                            <a href="#" class="date">feb 17, 2018</a>
-                            <span class="post-author"><i>by</i><a href="#">Mark Sanders</a></span>
-                        </h5>
-                        <h3 class="post-title"><a href="blog.html">Nature, in the broadest sense, is the natural, physical, or material world or universe.</a></h3>
-                        <p>In the broadest sense, is the natural, physical, or material world or universe...</p>
-                        <footer class="row">
-                            <h5 class="taxonomy"><i>in</i> <a href="#">image</a>, <a href="#">entertainment</a></h5>
-                            <div class="response-count"><img src="images/comment-icon-gray.png" alt="">5</div>
-                        </footer>
-                    </div>
-                </div>
-            </article>
-            <!--Twitter Widget-->
-            <aside class="col-sm-4 widget widget-instagram widget-with-posts post">
-                <div class="widget-instagram-inner">
-                    <h5 class="widget-meta"><i class="fa fa-twitter"></i>instagram feed <a href="http://twitter.com/chivalricblog">@chivalricblog</a></h5>
-                    <div id="instafeed"></div>
-                </div>
-            </aside>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="images/aboutimg.svg" alt="">
         </div>
+        <div class="col-12 col-sm-12 col-lg-6">
+          <h5>OUR COMPANY</h5>
+          <h2>Some Fine<br>Words About Us</h2>
+          <!-- Replace About Us Text Under -->
+          <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+        </div>
+      </div>
     </div>
-</section>
-
-<!--Footer-->
-<footer class="row" id="footer">
+  </section>
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <div class="container-fluid">
+      <div class="portfolio-aside">
+        <img src="images/aside3.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>See some of our<br>Creative work.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/1.png" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Awesome Work</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/2.png" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Awesome Work</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/3.png" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Awesome Work</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/4.png" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Awesome Work</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/5.png" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Awesome Work</span>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/6.png" class="photobox__preview" alt="Preview">
+                  <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Awesome Work</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Hidden Images From Portfolio -->
+        <div id="hiden-gallery" class="hide">
+          <div class="row">
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <!-- Replace Patch to Image Under -->
+                    <img src="images/5.png" class="photobox__preview" alt="Preview">
+                    <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Awesome Work</span>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <!-- Replace Patch to Image Under -->
+                    <img src="images/3.png" class="photobox__preview" alt="Preview">
+                    <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Awesome Work</span>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                  <div class="photobox__previewbox">
+                    <!-- Replace Patch to Image Under -->
+                    <img src="images/1.png" class="photobox__preview" alt="Preview">
+                    <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Awesome Work</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 more-btn">
+            <!-- Show Me More/Less Button -->
+            <a class="more-btn-inside">Show More.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BLOG SECTION -->
+  <section id="blog" class="blog">
+    <div class="container-fluid">
+      <div class="blog-aside">
+        <img src="images/aside4.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5>BLOG STORIES</h5>
+            <h2>Check Our News</h2>
+          </div>
+        </div>
+        <div id="blog-drag" class="row blog-slider">
+          <div class="col-12 col-lg-4 blog-box blog-first">
+            <!-- Blog Post Title -->
+            <h6>NEW ADVENTURE</h6>
+            <!-- Blog Post Date -->
+            <p>17 March 2019</p>
+            <!-- Blog Post -->
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>NEW ADVENTURE</h6>
+            <!-- Blog Post Date -->
+            <p>17 March 2019</p>
+            <!-- Blog Post -->
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>NEW ADVENTURE</h6>
+            <!-- Blog Post Date -->
+            <p>17 March 2019</p>
+            <!-- Blog Post -->
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <!-- Blog Section to be showed on Drag  -->
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>NEW ADVENTURE</h6>
+            <!-- Blog Post Date -->
+            <p>17 March 2019</p>
+            <!-- Blog Post -->
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
+            <!-- Blog Post Title -->
+            <h6>NEW ADVENTURE</h6>
+            <!-- Blog Post Date -->
+            <p>17 March 2019</p>
+            <!-- Blog Post -->
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
+            <!-- Blog Post Title -->
+            <h6>NEW ADVENTURE</h6>
+            <!-- Blog Post Date -->
+            <p>17 March 2019</p>
+            <!-- Blog Post -->
+            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          </div>
+        </div>
+        <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
+        <button class="hide-me" id="blog-btn">Show More Stories</button>
+      </div>
+    </div>
+  </section>  
+  <!-- CONTACT SECTION -->
+  <section id="contact-us" class="contact">
     <div class="container">
-        <div class="row top-footer">
-            <div class="widget col-sm-3 widget-about">
-                <div class="row m0"><a href="index.html"><img src="images/logo-black-green.png" alt=""></a></div>
-            </div>
-            <div class="widget col-sm-5 widget-menu">
-                <div class="row">
-                    <ul class="nav column-menu white-bg">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#">categories</a></li>
-                        <li><a href="#">archives</a></li>
-                    </ul>
-                    <ul class="nav column-menu white-bg">
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">faq</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="widget col-sm-4 widget-subscribe">
-                <h5 class="widget-title">subscribe to our newsletter.</h5>
-                <form action="#" method="post" class="form-inline subscribe-form">                    
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email">
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-sm"><span>send</span></button>
-                </form>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <h5>CONTACT US</h5>
+          <h2>Get in Touch</h2>
         </div>
-        <div>
-            <h5 class="copyright">All Rights Reserved by Chivalric. Designed and Developed by <a href="https://bootstrapmart.com">BootstrapMart</a><a href="#" class="right-side">&copy; Chivalric 2018</a> </h5>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
         </div>
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Subject" type="subject" id="subject" size="30" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 message">
+          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+        </div>
+        <div class="col-12">
+          <div class="hero-btns contact-btn">
+            <!-- Send Message Btn -->
+            <a href="#">Send Message</a>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
-
-<!--========== jQuery (necessary for Bootstrap's JavaScript plugins) ==========-->
-<script src="js/jquery-2.2.0.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="vendors/instafeed/instafeed.min.js"></script>
-<script src="vendors/imagesLoaded/imagesloaded.pkgd.min.js"></script>
-<script src="vendors/isotope/isotope.pkgd.min.js"></script>
-<script src="js/theme.js"></script>
+  </section>
+  <!-- FOOTER SECTION -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>DOOB</h5>
+          <h3>CREATIVITY ABOVE</h3>
+          <ul class="contact-nav">
+            <li><a data-scroll href="#home">Home.</a></li>
+            <li><a data-scroll href="#about-us">About Us.</a></li>
+            <li><a data-scroll href="#portfolio">Portfolio.</a></li>
+            <li><a data-scroll href="#blog">Blog.</a></li>
+            <li><a data-scroll href="#contact-us">Contact.</a></li>
+          </ul>
+          <h6>© 2019 - Doob,All Right Reserved</h6>
+          <ul class="social">
+            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+            <li><a href="#"><i class="icofont-dribbble"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Scripts Ends -->
 </body>
 </html>
