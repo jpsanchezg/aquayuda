@@ -1,17 +1,4 @@
-/* 
 
-
-    _/                                  _/            
-   _/          _/_/_/  _/_/_/      _/_/_/  _/    _/   
-  _/        _/    _/  _/    _/  _/    _/  _/    _/    
- _/        _/    _/  _/    _/  _/    _/  _/    _/     
-_/_/_/_/    _/_/_/  _/    _/    _/_/_/    _/_/_/      
-                                             _/       
-                                        _/_/          
-                                                 
-											   V 1.0                                  
-                                  													 
-                                  													 */
 @import "iconfont.css";
 @import "animate.min.css";
 
@@ -25,7 +12,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-	color: #3a3a3a;
+	color: #000000;
 	font-weight: 700;
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -77,17 +64,17 @@ header h1,
 .payoff h1,
 .details .carousel,
 .social a:hover{
-	color: #0bf397;
+	color: #002677;
 }
 
 .features p{
-	color: #06b872;
+	color: #01aeda;
 }
 
 /*---- Background ----*/
 .features,
 .detail .carousel-indicators .active {
-	background: #0bf397;	
+	background: #0b96f3;	
 }
 	
 
@@ -357,6 +344,7 @@ header .carousel-indicators li {
 
 .features p {
 	font-weight: 400;
+	color: #ffffff;
 }
 
 .features h2{
